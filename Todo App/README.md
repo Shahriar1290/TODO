@@ -303,11 +303,3 @@ You can test the rules without the app in the console under **Firestore → Rule
 
 Commits follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification. See [`commit.md`](commit.md) for the accepted types, scopes and examples.
 
-A short workflow:
-
-1. Create a branch from `main`.
-2. Make small, focused commits with messages like `feat(tasks): add swipe to delete on task rows`.
-3. Run through the relevant parts of the [testing checklist](#testing-checklist).
-4. Open a pull request describing what changed and why.
-
-Do not commit `GoogleService-Info.plist` to a public repository, and do not commit `xcuserdata/`, `DerivedData/` or `.DS_Store`.
